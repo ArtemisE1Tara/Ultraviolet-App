@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "Ultraviolet instance",
   "type": "module",
-  "packageManager": "^pnpm@8.15.5",
   "engines": {
     "npm": ">=7.0.0",
-    "node": ">=16.0.0",
-    "pnpm": ">=8.15.5"
+    "node": ">=16.0.0"
   },
   "scripts": {
     "start": "node src/index.js"
@@ -29,5 +27,6 @@
   "devDependencies": {
     "eslint": "^8.36.0",
     "prettier": "^2.8.4"
-  }
+  },
+  "packageManager": "pnpm@9.0.0-beta.0+sha256.ff1f3981cae5c53ac1f0825645dcb59a53a8e79b654bcb96d2f1f176909fdcfa"
 }
